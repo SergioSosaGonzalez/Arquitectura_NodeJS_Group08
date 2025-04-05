@@ -1,0 +1,30 @@
+{
+  "name": "ambulance-lib",
+  "version": "1.0.0",
+  "module": "./dist/index.js",
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "private": true,
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "peerDependencies": {
+    "bcryptjs": "3.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
