@@ -8,6 +8,13 @@
     "dev": {
       "dependsOn": ["^dev"],
       "cache": false
+    },
+    "//#biome-check": {},
+    "//#biome-check:fix": {
+      "cache": false
+    },
+    "typecheck": {
+      "dependsOn": ["^typecheck"]
     }
   }
 }
